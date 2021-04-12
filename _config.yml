@@ -52,7 +52,7 @@ baseurl: ""
 #
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
@@ -68,9 +68,9 @@ gems:
 
 # Exclude these files from your production _site
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - bower.json
-    - bower_components
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - bower.json
+  - bower_components

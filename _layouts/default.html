@@ -1,91 +1,98 @@
 ---
 navigation:
 - text: Home
-  url: /
-#  url: /ptr/_site/
+url: /
+# url: /ptr/_site/
 #- text: Unternehmen
-#  url: /ptr/_site/unternehmen/
+# url: /ptr/_site/unternehmen/
 #- text: Dienstleistungen
 # url: /ptr/_site/dienstleistungen/
 - text: Kontakt
-  url: /kontakt/
-#  url: /ptr/_site/kontakt/
+url: /kontakt/
+# url: /ptr/_site/kontakt/
 ---
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  {% include meta.html %}
 
-    <!-- Bootstrap core CSS -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Bootstrap theme -->
-    <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/slate/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="{{ 'style.css' | relative_url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ 'feed.xml' | relative_url }}" />
 
-    <!-- Fontawesome CSS-->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Bootstrap theme -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/slate/bootstrap.min.css"> -->
 
-    <!-- Include JQuery -->
-    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-  </head>
+  <!-- Fontawesome CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-  <body>
-    <div class="container" role="main">
-      <header class="masthead clearfix">
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/{{ site.logo }}" /></a>
-        <!-- <div class="eurostile subtitle">
+  <!-- Include JQuery -->
+  <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+  <div class="container" role="main">
+    <header class="masthead clearfix">
+      <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.logo | relative_url }}" /></a>
+      <!-- <div class="eurostile subtitle">
           Maschinenbau | Werkzeugbau | Stanzwerkzeuge
         </div> -->
-        <nav>
-          {% for link in page.navigation %}
-            {% assign urlNoIndex = page.url|remove:'index.html' %}
-            {% assign url = urlNoIndex|remove:'/archiv' %}
-            <a href="{{link.url}}" class="fader {% if url == link.url %}current{% endif %}">{{link.text}}</a>
-          {% endfor %}
-        </nav>
-      </header>
-    </div>
+      <nav>
+        {% for link in page.navigation %}
+        {% assign urlNoIndex = page.url|remove:'index.html' %}
+        {% assign url = urlNoIndex|remove:'/archiv' %}
+        <a href="{{link.url | relative_url }}"
+          class="fader {% if url == link.url %}current{% endif %}">{{link.text}}</a>
+        {% endfor %}
+      </nav>
+    </header>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          <div class="row">
-            <div class="col-md-6">
-              <h3>PTR Germany GmbH</h3>
-              <p>
-                Unterhützer Straße 10-12<br>
-                42857 Remscheid<br>
-                Tel.: <a href="tel:+49 2191 461 55 150">+49 (0) 2191 461 55 150</a><br>
-                Fax: +49 (0) 2191 461 55 159
-              </p>
-            </div>
-            <div class="col-md-6">
-              <h3>Allgemeine Informationen</h3>
-              <ul class="nav-footer">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
-                <li><a href="{{ site.baseurl }}/datenschutz">Datenschutz</a></li>
-                <li><a href="{{ site.baseurl }}/impressum">Impressum</a></li>
-              </ul>
-            </div>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>PTR Germany GmbH</h3>
+            <p>
+              Unterhützer Straße 10-12<br>
+              42857 Remscheid<br>
+              Tel.: <a href="tel:+49 2191 461 55 150">+49 (0) 2191 461 55 150</a><br>
+              Fax: +49 (0) 2191 461 55 159
+            </p>
           </div>
-        </footer>
-      </div>
+          <div class="col-md-6">
+            <h3>Allgemeine Informationen</h3>
+            <ul class="nav-footer">
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
+              <li><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
+              <li><a href="{{ site.baseurl }}/datenschutz">Datenschutz</a></li>
+              <li><a href="{{ site.baseurl }}/impressum">Impressum</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
