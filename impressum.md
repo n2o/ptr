@@ -10,14 +10,11 @@ Unterhützer Straße 10-12
 Germany
 
 ### Vertreten durch
-Carl Oliver Röntgen  
 Dipl.-Ing. Jonas Weber  
-Dipl.-Ing. (FH) Ole Urspruch, MBA
 
 ### Kontakt
-Telefon: +49 (0) 2191 461 55 150  
-Telefax: +49 (0) 2191 461 55 159  
-E-Mail: mail (at) ptr-germany (dot) de
+Telefon: +49 (0) 2191 560 87 66  
+E-Mail: kontakt (at) ptr-germany (dot) de
 
 ### Registereintrag:
 Amtsgericht Wuppertal  

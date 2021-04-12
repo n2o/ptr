@@ -15,9 +15,8 @@ Unterhützer Straße 10-12
 Germany
 
 ### Kontakt
-Telefon: +49 (0) 2191 461 55 150  
-Telefax: +49 (0) 2191 461 55 159  
-E-Mail: mail (at) ptr-germany (dot) de
+Telefon: +49 (0) 2191 560 87 66
+E-Mail: kontakt (at) ptr-germany (dot) de
 
 ### Allgemeines zur Datenverarbeitung
 Wir verarbeiten personenbezogene Daten grundsätzlich nur, soweit dies zur
