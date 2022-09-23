@@ -5,8 +5,8 @@ permalink: /impressum/
 ---
 ### Angaben gemäß § 5 TMG:  
 PTR Germany GmbH  
-Unterhützer Straße 10-12  
-42857 Remscheid  
+Walter-Freitag-Straße 37  
+42899 Remscheid  
 Germany
 
 ### Vertreten durch
@@ -21,10 +21,10 @@ Amtsgericht Wuppertal
 HRB Nr. 26383
 
 ### Gestaltung der Internetpräsenz
-Christian Meter  
+Partial UG (haftungsbeschränkt)
 Am Hagen 6  
 42855 Remscheid  
-cmeter (at) googlemail (dot) com
+partial (at) mailbox (dot) org
 
 
 ## Haftungsausschluss:
