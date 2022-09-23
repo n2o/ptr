@@ -10,8 +10,8 @@ verwendet werden.
 
 ### Verantwortliche
 PTR Germany GmbH  
-Unterhützer Straße 10-12  
-42857 Remscheid  
+Walter-Freitag-Straße 37  
+42899 Remscheid  
 Germany
 
 ### Kontakt
