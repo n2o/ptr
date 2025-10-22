@@ -10,7 +10,7 @@ Walter-Freitag-Straße 37
 Germany
 
 ### Vertreten durch
-Dennis Bernhardt
+Dennis Bernhardt  
 Jonas Weber  
 
 ### Kontakt
