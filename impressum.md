@@ -10,10 +10,11 @@ Walter-Freitag-Straße 37
 Germany
 
 ### Vertreten durch
-Dipl.-Ing. Jonas Weber  
+Dennis Bernhardt
+Jonas Weber  
 
 ### Kontakt
-Telefon: +49 (0) 2191 560 87 66  
+Telefon: +49 (0) 2191 886740  
 E-Mail: kontakt (at) ptr-germany (dot) de
 
 ### Registereintrag:
