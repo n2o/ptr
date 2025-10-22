@@ -15,7 +15,7 @@ Walter-Freitag-Straße 37
 Germany
 
 ### Kontakt
-Telefon: +49 (0) 2191 560 87 66  
+Telefon: +49 (0) 2191 886740  
 E-Mail: kontakt (at) ptr-germany (dot) de
 
 ### Allgemeines zur Datenverarbeitung
